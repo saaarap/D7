@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+
+header{display: flex;
+flex-direction: column;
+align-items: center;}
+
+h1, span, button {font-weight: bold;}
+h2 {color: #6b6b6b;}
+span {padding: 1em;
+border-color: grey;
+border-style:solid;
+border-radius: 15%;
+opacity: 0.6;
+color: black;}
+
+div.webdesign ul :nth-child(9) {
+padding: 1em;
+border-radius: 10%;
+font-weight: bold;
+color: black;
+background-color: gainsboro;
+margin-left: 1em;}
+
+nav{color: rosybrown;}
+nav li:first-child{color: black;}
+
+.popular {
+color: gray;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+margin: 1em;}
+
+ul, li {display: inline-block;
+    padding-left: 1em;
+list-style: none;}
+
+
+.immagini img
+{width: 400px;
+margin: 1em;
+border-radius: 15%;}
+
+.logo img
+{width: 40px;}
+
+
+.flexboxwrap 
+{display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-around;
+align-items: center;
+margin-top: 2em;}
+
+.logotext 
+{display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-around;}
+
+.text {font-weight: bold;}
+
+.proorteam
+{padding: 0.3em;
+background-color: gainsboro;
+font-weight: bolder;
+color: white;
+border-radius: 10%;}
+
+.BOOSTED
+{color: gainsboro;
+font-weight: bold;}
+
+</style>
+</head>
+<body>
+<header>
+        <h1>Flex box</h1>
+        <h2>10.000+ amazing flex box designs for inspiration</h2>       
+<nav>
+    <li>Related:</li>
+    <li>packages</li>
+    <li>muscle</li>
+    <li>gift</li>
+    <li>cube</li>
+    <li>boxes</li>
+    <li>cardboard</li>
+</nav>
+</header>
+
+<section> 
+<div class="popular">    
+<div><span>Popular</span></div>
+<div class="webdesign">
+    <ul>
+        <li>All</li>
+        <li>Animation</li>
+        <li>Branding</li>
+        <li>Illustration</li>
+        <li>Mobile</li>
+        <li>Print</li>
+        <li>Product Design</li>
+        <li>Typography</li>
+        <li>Web Design</li>
+    </ul>
+</div>
+<div><span>Filters</span></div>
+</div>      
+</section>
+
+<main>
+<div class="flexboxwrap">
+<div class="card">
+    <div class="immagini"><img src="img_1.jpeg"> </div> 
+    <div class="logotext"> 
+    <div class="logo"><img src="channels4_profile.jpg"></div>
+    <div class="text">Caglar Cebeci </div>
+    <div class="proorteam">PRO</div> 
+    <div class="occhio"><i class="fa-solid fa-eye" style="color: #575b60;"></i> 125k </div>
+    <div class="cuore"><i class="fa-solid fa-heart" style="color: #6b6b6b;"></i> 648</div>
+    </div>
+</div>
+
+<div class="card">
+    <div class="immagini"><img src="img_2.jpeg"> </div> 
+    <div class="logotext"> 
+    <div class="logo"><img src="channels4_profile.jpg"></div>
+    <div class="text">Ramation </div> 
+    <div class="proorteam">TEAM</div>
+    <div class="occhio"><i class="fa-solid fa-eye" style="color: #575b60;"></i> 72.2k </div>
+    <div class="cuore"><i class="fa-solid fa-heart" style="color: #6b6b6b;"></i> 402</div>
+    </div>
+</div>
+
+<div class="card">
+    <div class="immagini"><img src="img_3.jpeg"> </div> 
+    <div class="logotext"> 
+    <div class="logo"><img src="channels4_profile.jpg"></div>
+    <div class="text">Zajno Crew </div> 
+    <div class="proorteam">TEAM</div>
+    <div class="occhio"><i class="fa-solid fa-eye" style="color: #575b60;"></i> 25.9k </div>
+    <div class="cuore"><i class="fa-solid fa-heart" style="color: #6b6b6b;"></i> 179</div>
+    </div>
+</div>
+
+<div class="card">
+    <div class="immagini"><img src="img_4.jpeg"> </div> 
+    <div class="logotext"> 
+    <div class="logo"><img src="channels4_profile.jpg"></div>
+    <div class="text">Afterglow </div> 
+    <div class="proorteam">TEAM</div>
+    <div class="occhio"><i class="fa-solid fa-eye" style="color: #575b60;"></i> 26.6k </div>
+    <div class="cuore"><i class="fa-solid fa-heart" style="color: #6b6b6b;"></i> 342</div>
+    </div>
+</div>
+
+<div class="card">
+    <div class="immagini"><img src="img_5.jpeg"> </div> 
+    <div class="logotext"> 
+    <div class="logo"><img src="channels4_profile.jpg"></div>
+    <div class="text">Kobbie Da </div> 
+    <div class="occhio"><i class="fa-solid fa-eye" style="color: #575b60;"></i> 26.4k </div>
+    <div class="cuore"><i class="fa-solid fa-heart" style="color: #6b6b6b;"></i> 242</div>
+    </div>
+</div>> 
+
+<div class="card">
+    <div class="immagini"><img src="img_6.jpeg"> </div> 
+    <div class="logotext"> 
+    <div class="logo"><img src="channels4_profile.jpg"></div>
+    <div class="text">Icons8</div> 
+    <div class="proorteam">TEAM</div>
+    <div class="occhio"><i class="fa-solid fa-eye" style="color: #575b60;"></i>360mln </div>
+    <div class="cuore"><i class="fa-solid fa-heart" style="color: #6b6b6b;"></i> 42</div>
+    </div>
+</div>
+
+<div class="card">
+    <div class="immagini"><img src="img_7.jpeg"> </div> 
+    <div class="logotext"> 
+    <div class="logo"><img src="channels4_profile.jpg"></div>
+    <div class="text"> Pitch</div> 
+    <div class="proorteam">TEAM</div>
+    <div class="BOOSTED">BOOSTED</div>
+    </div>
+</div>
+<div class="card">
+    <div class="immagini"><img src="img_8.jpeg"> </div> 
+    <div class="logotext"> 
+    <div class="logo"><img src="channels4_profile.jpg"></div>
+    <div class="text">Nicolas Solerieu</div> 
+    <div class="proorteam">PRO</div>
+    <div class="occhio"><i class="fa-solid fa-eye" style="color: #575b60;"></i>28.9k </div>
+    <div class="cuore"><i class="fa-solid fa-heart" style="color: #6b6b6b;"></i> 420</div>
+    </div>
+</div>
+</div>
+</main>
+</body>
+</html>
